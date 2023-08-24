@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+  Page not found
+{% endblock %}
+
+{% block body %}
+  <!-- <h1>404 page not found</h1> -->
+  <h1 class="marginh1">{{ errorMessage }}</h1>
+
+  {% load static %}
+  <img class="error" src="{% static 'encyclopedia/error.jpg' %}">
+
+{% endblock %}

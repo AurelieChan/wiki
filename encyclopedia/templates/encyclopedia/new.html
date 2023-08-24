@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+  Create new page
+{% endblock %}
+
+{% block body %}
+  <h1>{{ title }} &#127867</h1>
+
+  <form method="POST" action="{{ newOrEdit }}">
+    {% csrf_token %}
+
+    {{ newpage }}
+
+    <div>
+      <button class="save" type="submit">Save</button>
+    </div>
+
+  </form>
+{% endblock %}

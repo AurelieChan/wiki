@@ -1,0 +1,125 @@
+/* ======================================================================Main */
+
+body {
+  margin: 0;
+  background-color: #f4f4fc;
+  line-height: 30px;
+  overflow-x: hidden;
+}
+
+p {
+  max-width: 750px;
+  margin-left: 20px;
+}
+
+a {
+  color: #333384;
+}
+
+a:hover: {
+  color: #40408c;
+}
+
+code {
+  white-space: pre;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 18px;
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #000066;
+}
+
+.main {
+  padding: 10px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.search {
+  width: 100%;
+  min-width: 155px;
+  font-size: 15px;
+  line-height: 30px;
+  border: 1px solid #cccccc;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 11px;
+}
+
+/* ===================================================================Sidebar */
+.sidebar {
+  background-color: #e0e0f7;
+  height: 100vh;
+  padding: 30px;
+  position: fixed;
+}
+
+.sidebar h2 {
+  margin-top: 8px;
+  color: #000066;
+}
+
+/* ====================================================================Images */
+img {
+  width: 300px;
+}
+
+.error {
+  margin-left: 20px;
+  width: 345px;
+}
+
+/* ===================================================================Buttons */
+button {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #e0e0f7;
+  color: #000066;
+}
+
+.save {
+  margin-top: 10px;
+  position: static;
+}
+
+.edit {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  box-shadow: 0 10px 10px #8686bd;
+  background-color: #000066;
+  color: #e0e0f7;
+}
+
+/* ==================================================================Textarea */
+.titlebox {
+  height: 40px;
+  width: 800px;
+  margin-left: 20px;
+  padding-left: 5px;
+  resize: none;
+}
+
+.contentbox {
+  height: 350px;
+  width: 800px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+/* =============================================================Media queries */
+@media only screen and (max-width: 800px) {
+
+  .sidebar {
+    position: relative;
+  }
+
+}
